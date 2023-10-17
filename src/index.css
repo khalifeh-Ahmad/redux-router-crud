@@ -6,6 +6,7 @@
 .header h1 {
   margin: 20px 0;
 }
+
 .header .nav {
   background-color: black;
   height: 50px;
@@ -26,6 +27,10 @@
   color: white;
   font-size: 16px;
   text-decoration: none;
+}
+
+.header .nav .active {
+  text-decoration: underline;
 }
 
 .login {
